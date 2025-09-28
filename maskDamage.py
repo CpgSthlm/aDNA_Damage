@@ -18,7 +18,7 @@ Description:
     - Minimum depth threshold (default 3): Only positions with a minimum read depth of 3 are considered for mutation analysis, the other ones have transition removed.
 
     Usage:
-        python rmDamage_keepMut.py -b input.bam -o output.bam -r reference.fasta -t 0.9 -d 3
+        python maskDamage.py -b input.bam -o output.bam -r reference.fasta -t 0.9 -d 3
 """
 
 # Parse arguments
